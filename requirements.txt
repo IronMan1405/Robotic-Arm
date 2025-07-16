@@ -1,0 +1,6 @@
+flask
+RPi.GPIO
+adafruit-pca9685
+opencv-python
+pyttsx3
+speechRecognition

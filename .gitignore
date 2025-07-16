@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# C/C++ objects
+*.o
+*.obj
+*.elf
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Arduino
+*.ino.*
+*.hex
+*.eep
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+
+# Python environments
+.env
+.venv
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Media renders
+media/*.mp4
+media/*.mov
+media/*.avi
+
