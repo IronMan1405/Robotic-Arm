@@ -7,11 +7,11 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/move', method = ['POST'])
+@app.route('/move', methods = ['POST'])
 def move():
     servo = int(request.form['servo'])
     angle = int(request.form['angle'])
-
+    setServoAngle(servo, angle)
     return ('', 204)
 
 if __name__ == "__main__":
