@@ -7,7 +7,7 @@ currentAngles = {0: 95, 1: 90}
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', angles = currentAngles)
 
 @app.route('/move', methods = ['POST'])
 def move():
