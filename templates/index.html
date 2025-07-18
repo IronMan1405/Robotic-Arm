@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Robotic Arm Control</title>
+    </head>
+    <body>
+        <h1>Control Servos</h1>
+        <form method="post" action="/move">
+            <label>Claw Servo Angle (95-180):</label>
+            <input type="number" name="angle" min="95" max="180">
+            <input type="hidden" name="servo" value="0">
+            <button type="submit">Move Claw</button>
+        </form>
+        <form method="post" action="/move">
+            <label>Wrist Servo Angle (0-180):</label>
+            <input type="number" name="angle" min="0" max="180">
+            <input type="hidden" name="servo" value="1">
+            <button type="submit">Move Wrist</button>
+        </form>
+    </body>
+</html>

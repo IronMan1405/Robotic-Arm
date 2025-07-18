@@ -4,3 +4,4 @@ adafruit-pca9685
 opencv-python
 pyttsx3
 speechRecognition
+adafruit-circuitpython-servokit
