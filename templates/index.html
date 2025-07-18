@@ -28,6 +28,17 @@
                 <button type="submit">Move Wrist</button>
             </form>
         </div>
+
+        <div class="servo-block">
+            <h2>Lower Forearm Servo</h2>
+            <p>Current Angle: <strong>{{ angles[2] }}°</strong></p>
+            <form method="post" action="/move">
+                <label>Lower Forearm Servo Angle (0-180):</label>
+                <input type="number" name="angle" min="0" max="180" value="{{angles[2]}}">
+                <input type="hidden" name="servo" value="1">
+                <button type="submit">Move Lower Forearm</button>
+            </form>
+        </div>
     
     </body>
 </html>

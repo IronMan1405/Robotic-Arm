@@ -4,6 +4,7 @@ kit = ServoKit(channels = 16)
 
 clawServo = 0
 wristServo = 1
+lowerForeArm = 2
 
 def setServoAngle(servoChannel, angle):
     angle = max(0, min(180, angle))
