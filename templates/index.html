@@ -3,20 +3,31 @@
 <html>
     <head>
         <title>Robotic Arm Control</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     </head>
     <body>
         <h1>Control Servos</h1>
-        <form method="post" action="/move">
-            <label>Claw Servo Angle (95-180):</label>
-            <input type="number" name="angle" min="95" max="180">
-            <input type="hidden" name="servo" value="0">
-            <button type="submit">Move Claw</button>
-        </form>
-        <form method="post" action="/move">
-            <label>Wrist Servo Angle (0-180):</label>
-            <input type="number" name="angle" min="0" max="180">
-            <input type="hidden" name="servo" value="1">
-            <button type="submit">Move Wrist</button>
-        </form>
+        <div class="servo-block">
+            <h2>Claw Servo</h2>
+            <p>Current Angle: <strong>{{ angles[0] }}°</strong></p>
+            <form method="post" action="/move">
+                <label>Claw Servo Angle (95-180):</label>
+                <input type="number" name="angle" min="95" max="180" value="{{angles[0]}}">
+                <input type="hidden" name="servo" value="0">
+                <button type="submit">Move Claw</button>
+            </form>
+        </div>
+        
+        <div class="servo-block">
+            <h2>Wrist Servo</h2>
+            <p>Current Angle: <strong>{{ angles[1] }}°</strong></p>
+            <form method="post" action="/move">
+                <label>Wrist Servo Angle (0-180):</label>
+                <input type="number" name="angle" min="0" max="180" value="{{angles[1]}}">
+                <input type="hidden" name="servo" value="1">
+                <button type="submit">Move Wrist</button>
+            </form>
+        </div>
+    
     </body>
 </html>
