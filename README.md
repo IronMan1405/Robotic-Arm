@@ -13,7 +13,7 @@ A modular, Raspberry Pi-controlled 6DOF robotic arm designed for multi-modal con
 
 ## 📁 Directory Structure
 
-- [`hardware/`](hardware/): Circuit diagrams, PCA9685 wiring, servo specs
+- [`hardware/`](hardware/): Circuit diagrams, PCA9685 wiring, [MG996R servo specifications](hardware/servo_specs.md)
 - [`firmware/`](firmware/): Servo control code (e.g., Python scripts using RPi + PCA9685)
 - [`software/`](software/): Voice control, Flask dashboard, YOLOv5 object detection
 - [`tests/`](tests/): Calibration, angle limits, smooth movement
@@ -46,6 +46,12 @@ _(Coming soon)_
 - [ ] **Version 3:** Voice commands (Google Assistant / Offline STT)
 - [ ] **Version 4:** Computer vision with YOLOv5 / MobileNet SSD
 - [ ] **Version 5:** Autonomous mode + JARVIS-style integration
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
 ---
 
