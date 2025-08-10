@@ -6,7 +6,7 @@
 - ✅ Wire all servos to PCA9685 driver  
 - ✅ Create servo calibration scripts for each joint (`firmware/Calibration/`)  
 - ✅ Test basic movements with `servo_controller.py`  
-- ⬜ Integrate web-based manual control UI (`app.py` + Flask)
+- ✅ Integrate web-based manual control UI (`app.py` + Flask)
 
 ---
 
