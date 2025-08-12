@@ -14,12 +14,19 @@ A modular, Raspberry Pi-controlled 6DOF robotic arm designed for multi-modal con
 
 ## 📁 Directory Structure
 
-- [`hardware/`](hardware/): Circuit diagrams, PCA9685 wiring, [MG996R servo specifications](hardware/servo_specs.md)
-- [`firmware/`](firmware/): Servo control code (e.g., Python scripts using RPi + PCA9685)
-- [`software/`](software/): Voice control, Flask dashboard, YOLOv5 object detection
-- [`tests/`](tests/): Calibration, angle limits, smooth movement
-- [`docs/`](docs/): Setup guides, pinouts, flowcharts, and architecture diagrams
-- [`media/`](media/): Photos, renders, demo videos
+- [`hardware/`](hardware/) – Circuit diagrams, wiring, and specifications  
+  - [MG996R Servo Specifications](hardware/specs/servo_specs.md)  
+  - [PCA9685 Servo Driver Specifications](hardware/specs/pca9685_specs.md)  
+  - [PCA9685 Datasheet (PDF)](hardware/datasheets/PCA9685_Datasheet.pdf)  
+  - [Wiring Diagram (PNG)](hardware/wiring/6%20DOF%20Robotic%20Arm_bb.png)  
+  - [Wiring Diagram (Fritzing Source)](hardware/wiring/6%20DOF%20Robotic%20Arm.fzz)  
+- [`firmware/`](firmware/) – Servo calibration and control scripts  
+- [`software/`](software/) – Voice control, Flask dashboard, YOLOv5 object detection  
+- [`tests/`](tests/) – Calibration, angle limits, smooth movement  
+- [`docs/`](docs/) – Guides, pinouts, architecture diagrams  
+  - [Build Guide](docs/BUILD.md)  
+  - [Roadmap](docs/roadmap.md)  
+- [`media/`](media/) – Photos, renders, demo videos  
 
 ---
 
@@ -36,7 +43,8 @@ A modular, Raspberry Pi-controlled 6DOF robotic arm designed for multi-modal con
 
 ## 🔌 Setup Instructions
 
-_(Coming soon)_
+For full assembly and wiring instructions, see the [**Build Guide**](docs/BUILD.md).  
+For servo and PCA9685 details, see the [**Specifications**](hardware/pca9685_specs.md) and [**Datasheet**](hardware/datasheets/PCA9685_Datasheet.pdf).
 
 ---
 
@@ -52,7 +60,9 @@ _(Coming soon)_
 
 ## 🤝 Contributing
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+Pull requests are welcome! 
+For major changes, please open an issue first to discuss what you’d like to change.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) if available.
 
 ---
 
