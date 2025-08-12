@@ -41,7 +41,7 @@ _(Coming soon)_
 
 ## 🗺️ Roadmap
 
-- [ ] **Version 1:** Web-based servo control (PCA9685 + Raspberry Pi)
+- [x] **Version 1:** Web-based servo control (PCA9685 + Raspberry Pi)
 - [ ] **Version 2:** Live camera feed integration
 - [ ] **Version 3:** Voice commands (Google Assistant / Offline STT)
 - [ ] **Version 4:** Computer vision with YOLOv5 / MobileNet SSD
