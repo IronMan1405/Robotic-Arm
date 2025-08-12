@@ -7,7 +7,8 @@ A modular, Raspberry Pi-controlled 6DOF robotic arm designed for multi-modal con
 ## 🚧 Project Status
 
 ✅ Hardware assembled and control tests with PCA9685 + servos completed.  
-🔜 Moving on to **Version 1: Web Control** implementation.
+✅ Version 1 (Web-controlled robotic arm using PCA9685 + Arduino/ESP8266) – Completed on [Date]  
+🚧 Version 2 (Vision integration) – In Progress
 
 ---
 
