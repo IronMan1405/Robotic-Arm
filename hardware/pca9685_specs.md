@@ -45,4 +45,3 @@
 
 ## References
 - [Adafruit PCA9685 16-Channel PWM/Servo Driver Guide (PDF)](https://cdn-learn.adafruit.com/downloads/pdf/16-channel-pwm-servo-driver.pdf)
-- NXP PCA9685 Datasheet
