@@ -44,6 +44,7 @@ A modular, Raspberry Pi-controlled 6DOF robotic arm designed for multi-modal con
 ## 🔌 Setup Instructions
 
 For full assembly and wiring instructions, see the [**Build Guide**](docs/BUILD.md).  
+For detailed assembly steps, refer to the [6DOF Arm Assembly Guide (PDF)](docs/references/6DOF_Arm_Assembly_Guide.pdf).
 For servo and PCA9685 details, see the [**Specifications**](hardware/pca9685_specs.md) and [**Datasheet**](hardware/datasheets/PCA9685_Datasheet.pdf).
 
 ---
