@@ -3,7 +3,7 @@ from servo_controller import setServoAngle
 
 app = Flask(__name__)
 
-currentAngles = {0: 95, 1: 90, 2: 0}
+currentAngles = {0: 95, 1: 90, 2: 0, 3: 0, 4: 180, 5: 90}
 
 @app.route('/')
 def index():
